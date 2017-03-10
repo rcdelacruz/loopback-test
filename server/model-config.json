@@ -16,5 +16,9 @@
   "CoffeeShop": {
     "dataSource": "mysql",
     "public": true
+  },
+  "Books": {
+    "dataSource": "mysql",
+    "public": true
   }
 }
