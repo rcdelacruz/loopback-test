@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "loopback-test-executor",
+    "name": "loopback-test",
+    "region": "ap-southeast-1"
+  },
+  "api": {
+    "id": "n34s9oy6he"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mysql": {
+    "host": "gservices-cms.cagdu4wrxisr.ap-southeast-1.rds.amazonaws.com",
+    "port": 3306,
+    "url": "",
+    "database": "vendor1",
+    "password": "greygoose123",
+    "name": "mysql",
+    "user": "greygoose",
+    "connector": "mysql",
+    "connectTimeout": 30000,
+    "acquireTimeout": 30000
+  }
+}
