@@ -7,7 +7,7 @@ var app = module.exports = loopback();
 
 app.start = function() {
   // start the web server
-  /*return app.listen(function() {
+  return app.listen(function() {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
     console.log('Web server listening at: %s', baseUrl);
@@ -15,8 +15,8 @@ app.start = function() {
       var explorerPath = app.get('loopback-component-explorer').mountPath;
       console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
     }
-  });*/
-  module.exports = app;
+  });
+  
 };
 
 // Bootstrap the application, configure models, datasources and middleware.
@@ -26,6 +26,6 @@ boot(app, __dirname, function(err) {
 
   // start the server if `$ node server.js`
   if (require.main === module)
-    //app.start();
-    module.exports = app;
+    app.start();
+    //module.exports = app;
 });

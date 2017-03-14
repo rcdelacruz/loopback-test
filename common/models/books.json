@@ -6,11 +6,15 @@
     "validateUpsert": true
   },
   "properties": {
+    "author": {
+      "type": "string"
+    },
     "name": {
       "type": "string"
     },
-    "author": {
-      "type": "string"
+    "edition": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
